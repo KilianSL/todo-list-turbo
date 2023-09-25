@@ -1,11 +1,18 @@
-import { CssVarsProvider } from '@mui/joy/styles';
-import { Sheet, Typography } from '@mui/joy';
+import { AppBar, Box, IconButton, Toolbar } from '@mui/material';
+import React from 'react';
+import MenuIcon from '@mui/icons-material/Menu';
 
 const App: React.FC = () => {
   return (
-    <CssVarsProvider>
-        <Grid
-    </CssVarsProvider>
+    <Box sx={{ flexGrow: 1 }}>
+      <AppBar position="static">
+        <Toolbar>
+          <IconButton size="large" edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }}>
+            <MenuIcon />
+          </IconButton>
+        </Toolbar>
+      </AppBar>
+    </Box>
   );
 };
 
