@@ -22,5 +22,6 @@ module.exports = {
       }
     ]
   },
+
   ignorePatterns: ['**/.eslintrc.js', '**/node_modules/', '**/dist/', '**/.prettierrc.cjs', '**/.eslintrc.cjs']
 };
