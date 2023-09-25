@@ -3,5 +3,15 @@
     {
       "mode": "auto"
     }
-  ]
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "typescript"
+  ],
+  "prettier.prettierPath": "node_modules/prettier/index.js",
+  "prettier.configPath": ".prettierrc.cjs"
 }

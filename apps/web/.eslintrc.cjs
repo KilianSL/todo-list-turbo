@@ -1,4 +1,5 @@
 module.exports = {
   root: true,
-  extends: ["custom"],
+  extends: ['custom/react'],
+  ignorePatterns: ['dist', '.eslintrc.cjs']
 };
