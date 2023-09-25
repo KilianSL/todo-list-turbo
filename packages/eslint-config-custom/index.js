@@ -4,7 +4,7 @@ module.exports = {
   },
   parser: '@typescript-eslint/parser',
   extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended', 'prettier'],
-  plugins: ['@typescript-eslint', 'import', 'prettier'],
+  plugins: ['@typescript-eslint', 'import'],
   parserOptions: {
     sourceType: 'module',
     ecmaVersion: 2020
@@ -21,5 +21,6 @@ module.exports = {
         caughtErrorsIgnorePattern: '^_'
       }
     ]
-  }
+  },
+  ignorePatterns: ['**/.eslintrc.js', '**/node_modules/', '**/dist/', '**/.prettierrc.cjs', '**/.eslintrc.cjs']
 };

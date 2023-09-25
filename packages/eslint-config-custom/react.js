@@ -27,5 +27,6 @@ module.exports = {
   },
   env: {
     browser: true
-  }
+  },
+  ignorePatterns: ['**/vite-env.d.ts', '**/vite.config.ts']
 };
