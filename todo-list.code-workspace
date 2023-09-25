@@ -1,0 +1,21 @@
+// todo-list.code-workspace
+{
+    "folders": [
+        {
+            "name": "todo-list",
+            "path": "."
+        },
+        {
+            "name": "apps/web",
+            "path": "apps/web"
+        },
+        {
+            "name": "packages/eslint-config-custom",
+            "path": "packages/eslint-config-custom"
+        },
+        {
+            "name": "packages/tsconfig",
+            "path": "packages/tsconfig"
+        }
+    ]
+}
