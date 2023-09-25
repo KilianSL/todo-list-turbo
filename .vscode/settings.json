@@ -13,5 +13,6 @@
     "typescript"
   ],
   "prettier.prettierPath": "node_modules/prettier/index.js",
-  "prettier.configPath": ".prettierrc.cjs"
+  "prettier.configPath": ".prettierrc.cjs",
+  "editor.autoClosingBrackets": "always",
 }
